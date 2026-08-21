@@ -22,10 +22,10 @@
 
 ### AI
 
-- [Multi-Camera Person Tracking & Re-ID CCTV](https://github.com/lsy49055089/ondevice-projects/tree/main/AI/multicam-cctv-reid)
-  - Jetson Orin Nano, YOLO, ByteTrack, OSNet Re-ID 기반 다중 카메라 추적
-  - **Team Project**
-  - [Original Team Repository](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
+- [AI Projects](https://github.com/lsy49055089/ondevice-projects/tree/main/AI)
+  - Jetson AI Rock–Paper–Scissors: MobileNetV2·TensorRT 기반 4모드 손 인식 게임
+  - Multi-Camera Person Tracking & Re-ID CCTV: YOLO·ByteTrack·OSNet 기반 팀 프로젝트
+- [Original CCTV Team Repository](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
 
 ## Repository Structure
 
@@ -36,5 +36,6 @@ ondevice-projects/
 ├── design/
 ├── verification/
 └── AI/
+    ├── jetson-rps-game/
     └── multicam-cctv-reid/
 ~~~
