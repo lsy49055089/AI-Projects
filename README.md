@@ -1,41 +1,14 @@
-# On-Device Projects
+# On-Device AI Projects
 
-온디바이스 과정에서 진행한 Embedded, RTL/FPGA Design, Verification, AI 프로젝트를 한 저장소에 정리한 포트폴리오입니다.
+NVIDIA Jetson Orin Nano에서 구현한 Computer Vision·실시간 추론 프로젝트를 정리한 포트폴리오 저장소입니다.
 
-## Project Categories
+## Projects
 
-### Embedded
+| 프로젝트 | 핵심 내용 | 주요 기술 |
+|---|---|---|
+| [Jetson AI Rock–Paper–Scissors](./AI/jetson-rps-game) | 손을 실시간으로 분류해 1인전·2인전·하나 빼기·묵찌빠를 제공하는 4모드 웹 게임 | MobileNetV2, TensorRT, OpenCV, Flask |
+| [Multi-Camera CCTV Re-ID](./AI/multicam-cctv-reid) | 여러 카메라에서 동일 인물을 연결하고 이동 경로를 판단하는 팀 프로젝트 | YOLO, ByteTrack, OSNet, MQTT |
 
-- [STM32 Cortex-M4 LED Mini Games](https://github.com/lsy49055089/ondevice-projects/tree/main/embedded/cortex-m4-led-games)
-  - STM32 NUCLEO-F411RE 기반 반응속도·LED 기억력 게임
-  - C, ARM Cortex-M4, GPIO, Timer, UART, I2C LCD, Buzzer
-
-### Design
-
-- [RTL / FPGA Design](https://github.com/lsy49055089/ondevice-projects/tree/main/design)
-  - Verilog·VHDL 기반 디지털 회로, FPGA 및 SoC 설계
-
-### Verification
-
-- [SystemVerilog / UVM Verification](https://github.com/lsy49055089/ondevice-projects/tree/main/verification)
-  - SystemVerilog 테스트벤치, 기능 커버리지, Assertion 및 UVM 검증
-
-### AI
-
-- [AI Projects](https://github.com/lsy49055089/ondevice-projects/tree/main/AI)
-  - Jetson AI Rock–Paper–Scissors: MobileNetV2·TensorRT 기반 4모드 손 인식 게임
-  - Multi-Camera Person Tracking & Re-ID CCTV: YOLO·ByteTrack·OSNet 기반 팀 프로젝트
 - [Original CCTV Team Repository](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
 
-## Repository Structure
-
-~~~text
-ondevice-projects/
-├── embedded/
-│   └── cortex-m4-led-games/
-├── design/
-├── verification/
-└── AI/
-    ├── jetson-rps-game/
-    └── multicam-cctv-reid/
-~~~
+각 프로젝트 폴더에는 구현 내용, 실행 환경, 핵심 기술과 원본 코드를 정리했습니다.
