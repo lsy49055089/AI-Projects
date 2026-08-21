@@ -1,24 +1,40 @@
-# AI Projects
+# On-Device Projects
 
-Computer Vision과 On-Device AI 프로젝트를 정리한 포트폴리오 저장소입니다.
+온디바이스 과정에서 진행한 Embedded, RTL/FPGA Design, Verification, AI 프로젝트를 한 저장소에 정리한 포트폴리오입니다.
 
-## Project Index
+## Project Categories
 
-### 01. Multi-Camera Person Tracking & Re-ID CCTV
+### Embedded
 
-- **Type:** Team Project
-- **Platform:** NVIDIA Jetson Orin Nano
-- **Core Technologies:** YOLO, ByteTrack, OSNet Re-ID, OpenCV, MQTT
-- **Goal:** 여러 카메라 구간을 이동하는 사람을 탐지·추적하고 동일인 여부와 이동 경로를 판단하는 시스템
-- **Portfolio Document:** [multicam-cctv-reid](./multicam-cctv-reid/README.md)
-- **Original Team Repository:** [realisshoon/jetson-multicam-re_id-tracking](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
+- [STM32 Cortex-M4 LED Mini Games](https://github.com/lsy49055089/ondevice-projects/tree/main/embedded/cortex-m4-led-games)
+  - STM32 NUCLEO-F411RE 기반 반응속도·LED 기억력 게임
+  - C, ARM Cortex-M4, GPIO, Timer, UART, I2C LCD, Buzzer
 
-> 팀 프로젝트의 공동 소유권과 커밋 이력을 보존하기 위해 실제 소스 코드는 원본 팀 저장소에서 관리합니다. 이 저장소에는 포트폴리오용 프로젝트 설명과 구조를 정리합니다.
+### Design
 
-## Categories
+- [RTL / FPGA Design](https://github.com/lsy49055089/ondevice-projects/tree/main/design)
+  - Verilog·VHDL 기반 디지털 회로, FPGA 및 SoC 설계
 
-- Computer Vision
-- Object Detection & Tracking
-- Person Re-Identification
-- Multi-Camera Systems
-- Edge / On-Device AI
+### Verification
+
+- [SystemVerilog / UVM Verification](https://github.com/lsy49055089/ondevice-projects/tree/main/verification)
+  - SystemVerilog 테스트벤치, 기능 커버리지, Assertion 및 UVM 검증
+
+### AI
+
+- [Multi-Camera Person Tracking & Re-ID CCTV](https://github.com/lsy49055089/ondevice-projects/tree/main/AI/multicam-cctv-reid)
+  - Jetson Orin Nano, YOLO, ByteTrack, OSNet Re-ID 기반 다중 카메라 추적
+  - **Team Project**
+  - [Original Team Repository](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
+
+## Repository Structure
+
+~~~text
+ondevice-projects/
+├── embedded/
+│   └── cortex-m4-led-games/
+├── design/
+├── verification/
+└── AI/
+    └── multicam-cctv-reid/
+~~~
