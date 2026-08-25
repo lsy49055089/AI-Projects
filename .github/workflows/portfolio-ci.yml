@@ -1,0 +1,29 @@
+name: Portfolio CI
+
+on:
+  push:
+    paths:
+      - "AI/jetson-rps-game/**"
+      - ".github/workflows/portfolio-ci.yml"
+  pull_request:
+    paths:
+      - "AI/jetson-rps-game/**"
+      - ".github/workflows/portfolio-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-rps-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Validate package
+        run: python AI/jetson-rps-game/scripts/validate_package.py
