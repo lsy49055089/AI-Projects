@@ -2,6 +2,10 @@
 
 NVIDIA Jetson Orin Nano 기반 Computer Vision과 실시간 추론 프로젝트를 정리한 포트폴리오 저장소입니다.
 
+**Portfolio focus:** Jetson deployment · real-time CV · distributed system integration
+
+> RTL 설계·검증 역량을 중심으로, 실제 시스템에 AI 추론을 연결한 확장 프로젝트를 담았습니다.
+
 ## Projects
 
 | Project | Description | Stack |
@@ -12,3 +16,10 @@ NVIDIA Jetson Orin Nano 기반 Computer Vision과 실시간 추론 프로젝트�
 - [Original CCTV Team Repository](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
 
 각 프로젝트 폴더에는 구현 내용, 실행 환경, 핵심 기술과 원본 코드 범위를 정리했습니다.
+
+
+---
+
+## Portfolio Navigation
+
+[Conference Paper](https://github.com/lsy49055089/Parallel-Decision-Tree-Hardware) · [RTL / FPGA Design](https://github.com/lsy49055089/RTL-Design-Projects) · [Design Verification](https://github.com/lsy49055089/RTL-Verification-Projects) · [Embedded Systems](https://github.com/lsy49055089/Embedded-Systems-Projects) · [Edge AI / CV](https://github.com/lsy49055089/AI-Projects)
