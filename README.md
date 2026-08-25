@@ -1,6 +1,6 @@
-# AI / Computer Vision Projects
+# Edge AI / CV Projects
 
-NVIDIA Jetson Orin Nano 기반 Computer Vision과 실시간 추론 프로젝트를 정리한 포트폴리오 저장소입니다.
+NVIDIA Jetson Orin Nano 기반 Edge AI와 Computer Vision 실시간 추론 프로젝트를 정리한 포트폴리오 저장소입니다.
 
 **Portfolio focus:** Jetson deployment · real-time CV · distributed system integration
 
