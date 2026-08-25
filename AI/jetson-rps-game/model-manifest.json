@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "file": "RPS_MobileNetV2_Upgrade.engine",
+  "size_bytes": 5264692,
+  "sha256": "db398d578d3fbf8fdd1cd369960efb6d785b54c33a2bdd97c402e433ff1780b4",
+  "model": "MobileNetV2",
+  "classes": [
+    "SCISSORS",
+    "ROCK",
+    "PAPER"
+  ],
+  "runtime_note": "TensorRT engines are runtime- and device-dependent; validate inference on the target Jetson environment."
+}
