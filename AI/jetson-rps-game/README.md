@@ -37,6 +37,9 @@ jetson-rps-game/
 ├── RPS_MobileNetV2_Upgrade.engine
 ├── README.md
 ├── requirements.txt
+├── model-manifest.json
+├── scripts/
+│   └── validate_package.py
 └── app/
     ├── RPS_Web_4mode.py
     ├── trt_module.py
@@ -45,6 +48,23 @@ jetson-rps-game/
         ├── rock.png
         └── scissors.png
 ```
+
+## 실행·검증 근거
+
+공개 저장소에서 재현 가능한 범위는 자동 검사로 고정했습니다.
+
+| Check | Result |
+|---|---:|
+| Python source syntax | **PASS** |
+| TensorRT engine size | **5,264,692 bytes** |
+| TensorRT engine SHA-256 | `db398d57…ff1780b4` |
+| UI assets | **3 / 3 present** |
+
+```bash
+python AI/jetson-rps-game/scripts/validate_package.py
+```
+
+GitHub Actions는 push/PR마다 Python 구문, 엔진 무결성, 필수 UI 자산을 검사합니다. 실제 카메라 추론은 TensorRT·CUDA·JetPack 호환성이 필요한 Jetson 대상 검증으로 구분하며, 확인하지 않은 FPS나 정확도 수치는 기재하지 않았습니다.
 
 ## 실행 방법
 
