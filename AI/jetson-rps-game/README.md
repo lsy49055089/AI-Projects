@@ -51,7 +51,7 @@ jetson-rps-game/
 
 ## 실행·검증 근거
 
-공개 저장소에서 재현 가능한 범위는 자동 검사로 고정했습니다.
+자동 검사는 Python 구문, 엔진 무결성, 필수 UI 자산을 확인합니다.
 
 | Check | Result |
 |---|---:|
@@ -64,7 +64,7 @@ jetson-rps-game/
 python AI/jetson-rps-game/scripts/validate_package.py
 ```
 
-GitHub Actions는 push/PR마다 Python 구문, 엔진 무결성, 필수 UI 자산을 검사합니다. 실제 카메라 추론은 TensorRT·CUDA·JetPack 호환성이 필요한 Jetson 대상 검증으로 구분하며, 확인하지 않은 FPS나 정확도 수치는 기재하지 않았습니다.
+GitHub Actions는 push/PR마다 Python 구문, 엔진 무결성, 필수 UI 자산을 검사합니다. 카메라 추론과 게임 실행에는 Jetson의 TensorRT·CUDA·JetPack 호환 환경이 필요합니다.
 
 ## 실행 방법
 
