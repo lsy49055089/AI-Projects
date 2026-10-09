@@ -1,4 +1,4 @@
-# Multi-Camera Person Tracking & Re-ID CCTV
+# Multi-Camera Re-ID Tracking
 
 > **Team Project**  
 > 실제 소스 코드와 공동 커밋 이력은 [원본 팀 저장소](https://github.com/realisshoon/jetson-multicam-re_id-tracking)에서 확인할 수 있습니다.
@@ -53,18 +53,13 @@
 
 ## My Contribution
 
-공개 커밋 이력을 기준으로 개인 기여 범위를 구분했습니다.
-
 - OSNet Re-ID 전처리·추론 인터페이스와 모델 metadata/manifest 초기 구성
 - MQTT Client 및 Camera A/B Node prototype 구현
 - Jetson 카메라·환경·Re-ID·YOLO Tracking 검증 스크립트 구성
-- 실측 이동 시간 검증 문서와 포트폴리오 시연 이미지 보강
-- [초기 구현 커밋](https://github.com/realisshoon/jetson-multicam-re_id-tracking/commit/0c1673d1d3e1070fd19af45e0c8dbbf89032eaf5) · [실측 이동 시간 문서화](https://github.com/realisshoon/jetson-multicam-re_id-tracking/commit/fc56db08b45643b7c84d918cb8bc2595c2523cbd)
-
-> 최종 팀 시스템 전체가 아닌, 공개 Git 이력에서 확인되는 개인 구현·검증·문서화 범위만 기재했습니다.
+- [초기 구현 커밋](https://github.com/realisshoon/jetson-multicam-re_id-tracking/commit/0c1673e7f7deb00a5881e4a9f1cd4cb55fc36269) · [실측 이동 시간 문서화](https://github.com/realisshoon/jetson-multicam-re_id-tracking/commit/fc56dbb30904e7188845384fea71b0c3afdf629b)
 
 ## Repository & Ownership
 
 - **Original Repository:** [realisshoon/jetson-multicam-re_id-tracking](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
 - **Project Type:** Team Project
-- 팀 프로젝트의 공동 작업 기록을 보존하기 위해 코드를 개인 저장소로 복사하지 않았습니다.
+- **Source:** RTL/Python 구현과 공동 작업 이력은 원본 팀 저장소에서 확인할 수 있습니다.
