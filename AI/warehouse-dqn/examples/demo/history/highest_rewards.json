@@ -1,0 +1,18 @@
+{
+  "Level 1": {
+    "episode": 3,
+    "total_reward": 25.0
+  },
+  "Level 2": {
+    "episode": 5,
+    "total_reward": 45.0
+  },
+  "Level 3": {
+    "episode": 10,
+    "total_reward": 46.0
+  },
+  "Level 4": {
+    "episode": 16,
+    "total_reward": 78.7
+  }
+}

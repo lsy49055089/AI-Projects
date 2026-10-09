@@ -1,8 +1,6 @@
-# Edge AI / CV Projects
+# AI / CV Projects
 
-NVIDIA Jetson Orin Nano 기반 Edge AI와 Computer Vision 실시간 추론 프로젝트를 정리한 포트폴리오 저장소입니다.
-
-**Portfolio focus:** Jetson deployment · real-time CV · distributed system integration
+강화학습 기반 창고 배치 시뮬레이션과 NVIDIA Jetson Orin Nano 기반 실시간 AI·Computer Vision 프로젝트를 정리한 포트폴리오 저장소입니다.
 
 [![Portfolio CI](https://github.com/lsy49055089/AI-Projects/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/lsy49055089/AI-Projects/actions/workflows/portfolio-ci.yml)
 
@@ -14,6 +12,7 @@ NVIDIA Jetson Orin Nano 기반 Edge AI와 Computer Vision 실시간 추론 프�
 |---|---|---|
 | [Jetson AI Rock–Paper–Scissors](./AI/jetson-rps-game) | 손을 실시간으로 분류해 1인전·2인전·하나 빼기·묵찌빠를 제공하는 4모드 웹 게임 | MobileNetV2, TensorRT, OpenCV, Flask |
 | [Multi-Camera Re-ID Tracking](./AI/multicam-cctv-reid) | 여러 카메라에서 동일 인물을 연결하고 이동 경로를 판단하는 팀 프로젝트 | YOLO, ByteTrack, OSNet, MQTT |
+| [DQN 기반 물류창고 배치 시뮬레이션](./AI/warehouse-dqn) | 물품 속성과 단계별 보상을 사용해 2층 창고의 빈 적재 슬롯을 선택하는 개인 프로젝트 | Python, NumPy, DQN, Matplotlib |
 
 - [Original CCTV Team Repository](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
 
@@ -24,4 +23,4 @@ NVIDIA Jetson Orin Nano 기반 Edge AI와 Computer Vision 실시간 추론 프�
 
 ## Portfolio Navigation
 
-[Conference Paper](https://github.com/lsy49055089/Parallel-Decision-Tree-Hardware) · [RTL / FPGA Design](https://github.com/lsy49055089/RTL-Design-Projects) · [Design Verification](https://github.com/lsy49055089/RTL-Verification-Projects) · [Embedded Systems](https://github.com/lsy49055089/Embedded-Systems-Projects) · [Edge AI / CV](https://github.com/lsy49055089/AI-Projects)
+[Conference Paper](https://github.com/lsy49055089/Parallel-Decision-Tree-Hardware) · [RTL / FPGA Design](https://github.com/lsy49055089/RTL-Design-Projects) · [Design Verification](https://github.com/lsy49055089/RTL-Verification-Projects) · [Embedded Systems](https://github.com/lsy49055089/Embedded-Systems-Projects) · [AI / CV](https://github.com/lsy49055089/AI-Projects)

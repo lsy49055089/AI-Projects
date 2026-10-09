@@ -1,0 +1,12 @@
+{
+  "episodes": 16,
+  "max_steps": 20,
+  "state_size": 146,
+  "action_size": 33,
+  "training_updates": 289,
+  "mean_reward": 28.05,
+  "final_reward": 78.7,
+  "seconds": 6.53,
+  "data": "/mnt/data/warehouse_dqn_project/data/Combined_States_sample.json",
+  "output": "/mnt/data/warehouse_dqn_project/output/demo"
+}

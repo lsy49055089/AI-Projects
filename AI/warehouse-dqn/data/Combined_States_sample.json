@@ -1,0 +1,702 @@
+[
+  {
+    "StockCode": "SKU000",
+    "Name": "Item 000",
+    "Type": "Return Zone",
+    "Quantity": 124,
+    "UnitPrice": 1.25,
+    "Weight": 9,
+    "Height": 79,
+    "Width": 67
+  },
+  {
+    "StockCode": "SKU001",
+    "Name": "Item 001",
+    "Type": "Product",
+    "Quantity": 133,
+    "UnitPrice": 2.75,
+    "Weight": 44,
+    "Height": 46,
+    "Width": 87
+  },
+  {
+    "StockCode": "SKU001",
+    "Name": "Item 001",
+    "Type": "Return Zone",
+    "Quantity": 27,
+    "UnitPrice": 2.75,
+    "Weight": 44,
+    "Height": 46,
+    "Width": 87
+  },
+  {
+    "StockCode": "SKU002",
+    "Name": "Item 002",
+    "Type": "Product",
+    "Quantity": 111,
+    "UnitPrice": 4.5,
+    "Weight": 9,
+    "Height": 71,
+    "Width": 24
+  },
+  {
+    "StockCode": "SKU002",
+    "Name": "Item 002",
+    "Type": "Return Zone",
+    "Quantity": 17,
+    "UnitPrice": 4.5,
+    "Weight": 9,
+    "Height": 71,
+    "Width": 24
+  },
+  {
+    "StockCode": "SKU003",
+    "Name": "Item 003",
+    "Type": "Product",
+    "Quantity": 106,
+    "UnitPrice": 7.0,
+    "Weight": 10,
+    "Height": 55,
+    "Width": 98
+  },
+  {
+    "StockCode": "SKU003",
+    "Name": "Item 003",
+    "Type": "Return Zone",
+    "Quantity": 17,
+    "UnitPrice": 7.0,
+    "Weight": 10,
+    "Height": 55,
+    "Width": 98
+  },
+  {
+    "StockCode": "SKU004",
+    "Name": "Item 004",
+    "Type": "Return Zone",
+    "Quantity": 118,
+    "UnitPrice": 1.25,
+    "Weight": 74,
+    "Height": 78,
+    "Width": 73
+  },
+  {
+    "StockCode": "SKU005",
+    "Name": "Item 005",
+    "Type": "Product",
+    "Quantity": 157,
+    "UnitPrice": 2.75,
+    "Weight": 79,
+    "Height": 54,
+    "Width": 17
+  },
+  {
+    "StockCode": "SKU005",
+    "Name": "Item 005",
+    "Type": "Return Zone",
+    "Quantity": 33,
+    "UnitPrice": 2.75,
+    "Weight": 79,
+    "Height": 54,
+    "Width": 17
+  },
+  {
+    "StockCode": "SKU006",
+    "Name": "Item 006",
+    "Type": "Product",
+    "Quantity": 37,
+    "UnitPrice": 4.5,
+    "Weight": 84,
+    "Height": 48,
+    "Width": 53
+  },
+  {
+    "StockCode": "SKU006",
+    "Name": "Item 006",
+    "Type": "Return Zone",
+    "Quantity": 13,
+    "UnitPrice": 4.5,
+    "Weight": 84,
+    "Height": 48,
+    "Width": 53
+  },
+  {
+    "StockCode": "SKU007",
+    "Name": "Item 007",
+    "Type": "Product",
+    "Quantity": 135,
+    "UnitPrice": 7.0,
+    "Weight": 38,
+    "Height": 22,
+    "Width": 93
+  },
+  {
+    "StockCode": "SKU007",
+    "Name": "Item 007",
+    "Type": "Return Zone",
+    "Quantity": 7,
+    "UnitPrice": 7.0,
+    "Weight": 38,
+    "Height": 22,
+    "Width": 93
+  },
+  {
+    "StockCode": "SKU008",
+    "Name": "Item 008",
+    "Type": "Return Zone",
+    "Quantity": 127,
+    "UnitPrice": 1.25,
+    "Weight": 79,
+    "Height": 66,
+    "Width": 43
+  },
+  {
+    "StockCode": "SKU009",
+    "Name": "Item 009",
+    "Type": "Product",
+    "Quantity": 118,
+    "UnitPrice": 2.75,
+    "Weight": 83,
+    "Height": 57,
+    "Width": 47
+  },
+  {
+    "StockCode": "SKU009",
+    "Name": "Item 009",
+    "Type": "Return Zone",
+    "Quantity": 1,
+    "UnitPrice": 2.75,
+    "Weight": 83,
+    "Height": 57,
+    "Width": 47
+  },
+  {
+    "StockCode": "SKU010",
+    "Name": "Item 010",
+    "Type": "Product",
+    "Quantity": 116,
+    "UnitPrice": 4.5,
+    "Weight": 46,
+    "Height": 26,
+    "Width": 13
+  },
+  {
+    "StockCode": "SKU010",
+    "Name": "Item 010",
+    "Type": "Return Zone",
+    "Quantity": 5,
+    "UnitPrice": 4.5,
+    "Weight": 46,
+    "Height": 26,
+    "Width": 13
+  },
+  {
+    "StockCode": "SKU011",
+    "Name": "Item 011",
+    "Type": "Product",
+    "Quantity": 128,
+    "UnitPrice": 7.0,
+    "Weight": 56,
+    "Height": 90,
+    "Width": 11
+  },
+  {
+    "StockCode": "SKU011",
+    "Name": "Item 011",
+    "Type": "Return Zone",
+    "Quantity": 4,
+    "UnitPrice": 7.0,
+    "Weight": 56,
+    "Height": 90,
+    "Width": 11
+  },
+  {
+    "StockCode": "SKU012",
+    "Name": "Item 012",
+    "Type": "Return Zone",
+    "Quantity": 135,
+    "UnitPrice": 1.25,
+    "Weight": 86,
+    "Height": 84,
+    "Width": 31
+  },
+  {
+    "StockCode": "SKU013",
+    "Name": "Item 013",
+    "Type": "Product",
+    "Quantity": 111,
+    "UnitPrice": 2.75,
+    "Weight": 64,
+    "Height": 20,
+    "Width": 77
+  },
+  {
+    "StockCode": "SKU013",
+    "Name": "Item 013",
+    "Type": "Return Zone",
+    "Quantity": 29,
+    "UnitPrice": 2.75,
+    "Weight": 64,
+    "Height": 20,
+    "Width": 77
+  },
+  {
+    "StockCode": "SKU014",
+    "Name": "Item 014",
+    "Type": "Product",
+    "Quantity": 146,
+    "UnitPrice": 4.5,
+    "Weight": 71,
+    "Height": 39,
+    "Width": 11
+  },
+  {
+    "StockCode": "SKU014",
+    "Name": "Item 014",
+    "Type": "Return Zone",
+    "Quantity": 28,
+    "UnitPrice": 4.5,
+    "Weight": 71,
+    "Height": 39,
+    "Width": 11
+  },
+  {
+    "StockCode": "SKU015",
+    "Name": "Item 015",
+    "Type": "Product",
+    "Quantity": 74,
+    "UnitPrice": 7.0,
+    "Weight": 98,
+    "Height": 47,
+    "Width": 90
+  },
+  {
+    "StockCode": "SKU015",
+    "Name": "Item 015",
+    "Type": "Return Zone",
+    "Quantity": 19,
+    "UnitPrice": 7.0,
+    "Weight": 98,
+    "Height": 47,
+    "Width": 90
+  },
+  {
+    "StockCode": "SKU016",
+    "Name": "Item 016",
+    "Type": "Return Zone",
+    "Quantity": 126,
+    "UnitPrice": 1.25,
+    "Weight": 68,
+    "Height": 79,
+    "Width": 77
+  },
+  {
+    "StockCode": "SKU017",
+    "Name": "Item 017",
+    "Type": "Product",
+    "Quantity": 52,
+    "UnitPrice": 2.75,
+    "Weight": 20,
+    "Height": 39,
+    "Width": 49
+  },
+  {
+    "StockCode": "SKU017",
+    "Name": "Item 017",
+    "Type": "Return Zone",
+    "Quantity": 7,
+    "UnitPrice": 2.75,
+    "Weight": 20,
+    "Height": 39,
+    "Width": 49
+  },
+  {
+    "StockCode": "SKU018",
+    "Name": "Item 018",
+    "Type": "Product",
+    "Quantity": 130,
+    "UnitPrice": 4.5,
+    "Weight": 50,
+    "Height": 9,
+    "Width": 57
+  },
+  {
+    "StockCode": "SKU018",
+    "Name": "Item 018",
+    "Type": "Return Zone",
+    "Quantity": 37,
+    "UnitPrice": 4.5,
+    "Weight": 50,
+    "Height": 9,
+    "Width": 57
+  },
+  {
+    "StockCode": "SKU019",
+    "Name": "Item 019",
+    "Type": "Product",
+    "Quantity": 87,
+    "UnitPrice": 7.0,
+    "Weight": 16,
+    "Height": 76,
+    "Width": 70
+  },
+  {
+    "StockCode": "SKU019",
+    "Name": "Item 019",
+    "Type": "Return Zone",
+    "Quantity": 21,
+    "UnitPrice": 7.0,
+    "Weight": 16,
+    "Height": 76,
+    "Width": 70
+  },
+  {
+    "StockCode": "SKU020",
+    "Name": "Item 020",
+    "Type": "Return Zone",
+    "Quantity": 203,
+    "UnitPrice": 1.25,
+    "Weight": 93,
+    "Height": 76,
+    "Width": 40
+  },
+  {
+    "StockCode": "SKU021",
+    "Name": "Item 021",
+    "Type": "Product",
+    "Quantity": 78,
+    "UnitPrice": 2.75,
+    "Weight": 97,
+    "Height": 44,
+    "Width": 36
+  },
+  {
+    "StockCode": "SKU021",
+    "Name": "Item 021",
+    "Type": "Return Zone",
+    "Quantity": 7,
+    "UnitPrice": 2.75,
+    "Weight": 97,
+    "Height": 44,
+    "Width": 36
+  },
+  {
+    "StockCode": "SKU022",
+    "Name": "Item 022",
+    "Type": "Product",
+    "Quantity": 84,
+    "UnitPrice": 4.5,
+    "Weight": 91,
+    "Height": 40,
+    "Width": 12
+  },
+  {
+    "StockCode": "SKU022",
+    "Name": "Item 022",
+    "Type": "Return Zone",
+    "Quantity": 20,
+    "UnitPrice": 4.5,
+    "Weight": 91,
+    "Height": 40,
+    "Width": 12
+  },
+  {
+    "StockCode": "SKU023",
+    "Name": "Item 023",
+    "Type": "Product",
+    "Quantity": 118,
+    "UnitPrice": 7.0,
+    "Weight": 47,
+    "Height": 81,
+    "Width": 23
+  },
+  {
+    "StockCode": "SKU023",
+    "Name": "Item 023",
+    "Type": "Return Zone",
+    "Quantity": 28,
+    "UnitPrice": 7.0,
+    "Weight": 47,
+    "Height": 81,
+    "Width": 23
+  },
+  {
+    "StockCode": "SKU024",
+    "Name": "Item 024",
+    "Type": "Return Zone",
+    "Quantity": 171,
+    "UnitPrice": 1.25,
+    "Weight": 47,
+    "Height": 17,
+    "Width": 70
+  },
+  {
+    "StockCode": "SKU025",
+    "Name": "Item 025",
+    "Type": "Product",
+    "Quantity": 133,
+    "UnitPrice": 2.75,
+    "Weight": 48,
+    "Height": 36,
+    "Width": 26
+  },
+  {
+    "StockCode": "SKU025",
+    "Name": "Item 025",
+    "Type": "Return Zone",
+    "Quantity": 18,
+    "UnitPrice": 2.75,
+    "Weight": 48,
+    "Height": 36,
+    "Width": 26
+  },
+  {
+    "StockCode": "SKU026",
+    "Name": "Item 026",
+    "Type": "Product",
+    "Quantity": 109,
+    "UnitPrice": 4.5,
+    "Weight": 57,
+    "Height": 69,
+    "Width": 95
+  },
+  {
+    "StockCode": "SKU026",
+    "Name": "Item 026",
+    "Type": "Return Zone",
+    "Quantity": 7,
+    "UnitPrice": 4.5,
+    "Weight": 57,
+    "Height": 69,
+    "Width": 95
+  },
+  {
+    "StockCode": "SKU027",
+    "Name": "Item 027",
+    "Type": "Product",
+    "Quantity": 107,
+    "UnitPrice": 7.0,
+    "Weight": 44,
+    "Height": 20,
+    "Width": 84
+  },
+  {
+    "StockCode": "SKU027",
+    "Name": "Item 027",
+    "Type": "Return Zone",
+    "Quantity": 16,
+    "UnitPrice": 7.0,
+    "Weight": 44,
+    "Height": 20,
+    "Width": 84
+  },
+  {
+    "StockCode": "SKU028",
+    "Name": "Item 028",
+    "Type": "Return Zone",
+    "Quantity": 108,
+    "UnitPrice": 1.25,
+    "Weight": 63,
+    "Height": 72,
+    "Width": 14
+  },
+  {
+    "StockCode": "SKU029",
+    "Name": "Item 029",
+    "Type": "Product",
+    "Quantity": 86,
+    "UnitPrice": 2.75,
+    "Weight": 32,
+    "Height": 78,
+    "Width": 84
+  },
+  {
+    "StockCode": "SKU029",
+    "Name": "Item 029",
+    "Type": "Return Zone",
+    "Quantity": 13,
+    "UnitPrice": 2.75,
+    "Weight": 32,
+    "Height": 78,
+    "Width": 84
+  },
+  {
+    "StockCode": "SKU030",
+    "Name": "Item 030",
+    "Type": "Product",
+    "Quantity": 120,
+    "UnitPrice": 4.5,
+    "Weight": 44,
+    "Height": 82,
+    "Width": 85
+  },
+  {
+    "StockCode": "SKU030",
+    "Name": "Item 030",
+    "Type": "Return Zone",
+    "Quantity": 28,
+    "UnitPrice": 4.5,
+    "Weight": 44,
+    "Height": 82,
+    "Width": 85
+  },
+  {
+    "StockCode": "SKU031",
+    "Name": "Item 031",
+    "Type": "Product",
+    "Quantity": 77,
+    "UnitPrice": 7.0,
+    "Weight": 39,
+    "Height": 91,
+    "Width": 32
+  },
+  {
+    "StockCode": "SKU031",
+    "Name": "Item 031",
+    "Type": "Return Zone",
+    "Quantity": 26,
+    "UnitPrice": 7.0,
+    "Weight": 39,
+    "Height": 91,
+    "Width": 32
+  },
+  {
+    "StockCode": "SKU032",
+    "Name": "Item 032",
+    "Type": "Return Zone",
+    "Quantity": 128,
+    "UnitPrice": 1.25,
+    "Weight": 24,
+    "Height": 70,
+    "Width": 66
+  },
+  {
+    "StockCode": "SKU033",
+    "Name": "Item 033",
+    "Type": "Product",
+    "Quantity": 73,
+    "UnitPrice": 2.75,
+    "Weight": 14,
+    "Height": 84,
+    "Width": 24
+  },
+  {
+    "StockCode": "SKU033",
+    "Name": "Item 033",
+    "Type": "Return Zone",
+    "Quantity": 15,
+    "UnitPrice": 2.75,
+    "Weight": 14,
+    "Height": 84,
+    "Width": 24
+  },
+  {
+    "StockCode": "SKU034",
+    "Name": "Item 034",
+    "Type": "Product",
+    "Quantity": 128,
+    "UnitPrice": 4.5,
+    "Weight": 81,
+    "Height": 5,
+    "Width": 81
+  },
+  {
+    "StockCode": "SKU034",
+    "Name": "Item 034",
+    "Type": "Return Zone",
+    "Quantity": 39,
+    "UnitPrice": 4.5,
+    "Weight": 81,
+    "Height": 5,
+    "Width": 81
+  },
+  {
+    "StockCode": "SKU035",
+    "Name": "Item 035",
+    "Type": "Product",
+    "Quantity": 91,
+    "UnitPrice": 7.0,
+    "Weight": 79,
+    "Height": 79,
+    "Width": 68
+  },
+  {
+    "StockCode": "SKU035",
+    "Name": "Item 035",
+    "Type": "Return Zone",
+    "Quantity": 4,
+    "UnitPrice": 7.0,
+    "Weight": 79,
+    "Height": 79,
+    "Width": 68
+  },
+  {
+    "StockCode": "SKU036",
+    "Name": "Item 036",
+    "Type": "Return Zone",
+    "Quantity": 83,
+    "UnitPrice": 1.25,
+    "Weight": 48,
+    "Height": 72,
+    "Width": 31
+  },
+  {
+    "StockCode": "SKU037",
+    "Name": "Item 037",
+    "Type": "Product",
+    "Quantity": 89,
+    "UnitPrice": 2.75,
+    "Weight": 79,
+    "Height": 58,
+    "Width": 49
+  },
+  {
+    "StockCode": "SKU037",
+    "Name": "Item 037",
+    "Type": "Return Zone",
+    "Quantity": 5,
+    "UnitPrice": 2.75,
+    "Weight": 79,
+    "Height": 58,
+    "Width": 49
+  },
+  {
+    "StockCode": "SKU038",
+    "Name": "Item 038",
+    "Type": "Product",
+    "Quantity": 82,
+    "UnitPrice": 4.5,
+    "Weight": 51,
+    "Height": 59,
+    "Width": 8
+  },
+  {
+    "StockCode": "SKU038",
+    "Name": "Item 038",
+    "Type": "Return Zone",
+    "Quantity": 14,
+    "UnitPrice": 4.5,
+    "Weight": 51,
+    "Height": 59,
+    "Width": 8
+  },
+  {
+    "StockCode": "SKU039",
+    "Name": "Item 039",
+    "Type": "Product",
+    "Quantity": 112,
+    "UnitPrice": 7.0,
+    "Weight": 14,
+    "Height": 28,
+    "Width": 15
+  },
+  {
+    "StockCode": "SKU039",
+    "Name": "Item 039",
+    "Type": "Return Zone",
+    "Quantity": 39,
+    "UnitPrice": 7.0,
+    "Weight": 14,
+    "Height": 28,
+    "Width": 15
+  }
+]

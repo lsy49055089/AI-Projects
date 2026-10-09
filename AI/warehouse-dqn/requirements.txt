@@ -1,0 +1,8 @@
+numpy>=1.24,<3
+pandas>=2.0,<3
+matplotlib>=3.7,<4
+imageio>=2.31,<3
+Pillow>=9.5
+openpyxl>=3.1
+pytest>=7
+xlrd>=2.0

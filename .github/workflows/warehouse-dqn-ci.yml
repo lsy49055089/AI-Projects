@@ -1,0 +1,36 @@
+name: Warehouse DQN Tests
+
+on:
+  push:
+    paths:
+      - "AI/warehouse-dqn/**"
+      - ".github/workflows/warehouse-dqn-ci.yml"
+  pull_request:
+    paths:
+      - "AI/warehouse-dqn/**"
+      - ".github/workflows/warehouse-dqn-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test-warehouse-dqn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+          cache-dependency-path: AI/warehouse-dqn/requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+        working-directory: AI/warehouse-dqn
+
+      - name: Test environment and DQN
+        run: python -m pytest test_warehouse.py -q
+        working-directory: AI/warehouse-dqn

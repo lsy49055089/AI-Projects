@@ -1,0 +1,9 @@
+{
+  "episodes": 60,
+  "step_level": 4,
+  "trained_mean_reward": 117.9,
+  "random_mean_reward": 30.122,
+  "trained_correct_zone_rate": 0.7725,
+  "random_correct_zone_rate": 0.4883,
+  "seed": 1042
+}
