@@ -1,4 +1,9 @@
-# AI / CV
+<a id="ai--cv"></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/readme/header-dark.svg">
+  <img src="./assets/readme/header-light.svg" width="100%" alt="AI / CV">
+</picture>
 
 Jetson의 영상 추론·다중 카메라 연동과 DQN 기반 창고 배치 시뮬레이션을 구현한 프로젝트입니다.
 
@@ -6,6 +11,9 @@ Jetson의 영상 추론·다중 카메라 연동과 DQN 기반 창고 배치 시
 <a id="ai--cv-projects"></a>
 <a id="projects"></a>
 <a id="portfolio-navigation"></a>
+
+
+[프로젝트 목록](#프로젝트) · [웹 포트폴리오 ↗](https://seungyeol-rtl-portfolio.azuretide33.chatgpt.site)
 
 ## 프로젝트
 

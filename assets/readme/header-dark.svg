@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="184" viewBox="0 0 1040 184" role="img" aria-labelledby="title desc">
+<title id="title">AI / CV</title>
+<desc id="desc">Edge Inference · Multi-Camera Tracking · Reinforcement Learning</desc>
+<rect x="0.5" y="0.5" width="1039" height="183" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect x="28" y="30" width="4" height="124" rx="2" fill="#77aaf3"/>
+<g font-family="sans-serif">
+<text x="52" y="45" fill="#77aaf3" font-size="12" font-weight="700" letter-spacing="2">AI / COMPUTER VISION</text>
+<text x="50" y="101" fill="#f0f6fc" font-size="42" font-weight="700" letter-spacing="-1">AI / CV</text>
+<text x="52" y="140" fill="#9caabd" font-size="20">Edge Inference · Multi-Camera Tracking · Reinforcement Learning</text>
+</g></svg>

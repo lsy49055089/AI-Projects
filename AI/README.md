@@ -1,4 +1,9 @@
-# AI / CV
+<a id="ai--cv"></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/readme/header-dark.svg">
+  <img src="../assets/readme/header-light.svg" width="100%" alt="AI / CV">
+</picture>
 
 영상 추론·카메라 연동과 강화학습 시뮬레이션 프로젝트입니다.
 
