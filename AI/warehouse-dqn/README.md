@@ -1,10 +1,28 @@
 # DQN 기반 물류창고 배치 시뮬레이션
 
-**개인 프로젝트 · 이승열 · 2024.12.02 - 2024.12.20**
+물품 속성과 창고 적재 상태로 빈 슬롯을 선택하는 DQN 환경을 설계하고, 학습 정책과 무작위 배치를 같은 조건에서 비교했습니다.
 
-2층 창고의 적재 상태와 물품 속성을 입력으로 받아 DQN이 빈 슬롯을 선택하는 강화학습 시뮬레이션입니다. 주문 데이터 전처리, 창고 환경, 보상 함수, DQN 에이전트와 배치 시각화를 구현했습니다.
+## 개요
 
-## 설계 및 구현
+| 항목 | 내용 |
+|---|---|
+| 기간 | 2024.12.02–2024.12.20 |
+| 형태 | 개인 프로젝트 |
+| 기술 | Python · NumPy · DQN · Matplotlib |
+
+
+## 담당 역할
+
+- CSV·Excel 주문 데이터 전처리와 물품 속성 구성
+- 2층 창고 환경, 행동 마스크와 단계별 보상 함수 설계
+- NumPy DQN 학습·평가, 배치 GIF와 보상 그래프 구현
+
+
+## 설계·구현
+
+<a id="설계-및-구현"></a>
+
+### 환경·학습 구조
 
 | 항목 | 구현 |
 |---|---|
@@ -18,24 +36,10 @@
 
 CSV·Excel 주문의 SKU와 상품 유형별 수량을 집계하고 단가에는 중앙값을 사용합니다. 음수 수량 또는 취소 송장은 반품으로 구분합니다. 주문에 없는 무게·높이·폭은 시뮬레이션 속성으로 생성하며, 현재 환경은 무게를 사용합니다. 무게는 가상 단위 1~100이고, 50 초과는 1층, 50 이하는 2층으로 배치합니다.
 
-## 학습·배치 화면
 
-300 에피소드, 에피소드당 최대 30회 배치의 학습 기록입니다. P는 일반 물품, R은 반품을 나타냅니다.
+## 검증 결과
 
-![greedy 정책의 배치 과정](assets/trained_policy_greedy.gif)
-
-![에피소드별 총 보상과 20회 이동평균](assets/final_rewards_graph.png)
-
-<details>
-<summary>100·200·300회 학습 시점의 배치 과정</summary>
-
-![학습 시점별 배치 과정](assets/training_progress_100_200_300.gif)
-
-</details>
-
-학습 중 단계별로 보상 조건을 추가합니다. 그래프는 각 단계의 보상 기록이며, 정책 비교는 아래와 같이 보상 조건을 고정한 평가에서 수행합니다.
-
-## 샘플 데이터 평가
+### 샘플 데이터 평가
 
 정책 평가에는 `examples/demo/`의 16회 학습 모델과 임의 주문 데이터를 사용했습니다. 학습 과정 시각화는 300회 실행 기록입니다.
 
@@ -52,7 +56,39 @@ CSV·Excel 주문의 SKU와 상품 유형별 수량을 집계하고 단가에는
 
 [평가 기록](examples/demo/history/evaluation.json) · [학습 설정](examples/demo/history/training_summary.json)
 
-## 실행
+<a id="검증"></a>
+
+### 자동 검사
+
+관측·행동 크기, 물품 속성, 배치 보상, 점유 슬롯 처리, 반품 전처리, 가중치 갱신·저장과 학습 결과 생성을 확인하는 자동 시험 **7개 PASS**입니다.
+
+```bash
+python -m pytest test_warehouse.py -q
+```
+
+### 학습·배치 화면
+
+300 에피소드, 에피소드당 최대 30회 배치의 학습 기록입니다. P는 일반 물품, R은 반품을 나타냅니다.
+
+![greedy 정책의 배치 과정](assets/trained_policy_greedy.gif)
+
+![에피소드별 총 보상과 20회 이동평균](assets/final_rewards_graph.png)
+
+<details>
+<summary>100·200·300회 학습 시점의 배치 과정</summary>
+
+![학습 시점별 배치 과정](assets/training_progress_100_200_300.gif)
+
+</details>
+
+학습 중 단계별로 보상 조건을 추가합니다. 그래프는 각 단계의 보상 기록이며, 정책 비교는 아래와 같이 보상 조건을 고정한 평가에서 수행합니다.
+
+
+## 실행 방법
+
+<a id="실행"></a>
+
+### Python 실행
 
 Python 3.10 이상 환경에서 프로젝트 폴더로 이동합니다. NumPy 기반 실행 코드에는 TensorFlow가 필요하지 않습니다.
 
@@ -80,7 +116,11 @@ python evaluate.py --data data/Combined_States.json --model output/dqn_weights.n
 
 입력 파일에는 `InvoiceNo`, `StockCode`, `Description`, `Quantity`, `UnitPrice` 열이 필요합니다.
 
-## 코드 구성
+### 환경 조건
+
+배치 판단에는 물품 종류·무게·수량·단가를 사용했습니다. 주문 날짜·출고 순서와 물품의 길이·폭·높이는 반영하지 않았습니다.
+
+### 코드 구성
 
 | 파일 | 역할 |
 |---|---|
@@ -93,15 +133,7 @@ python evaluate.py --data data/Combined_States.json --model output/dqn_weights.n
 | `test_warehouse.py` | 환경·전처리·DQN·출력 생성 시험 |
 | `legacy/warehouse_dqn_initial.py` | TensorFlow 기반 초기 실험 스크립트 |
 
-## 검증
-
-관측·행동 크기, 물품 속성, 배치 보상, 점유 슬롯 처리, 반품 전처리, 가중치 갱신·저장과 학습 결과 생성을 확인하는 자동 시험 **7개 PASS**입니다.
-
-```bash
-python -m pytest test_warehouse.py -q
-```
-
-## 발표·설계 자료
+### 발표·설계 자료
 
 - [발표자료 PPT](docs/warehouse-presentation.pptx)
 - [발표자료 미리보기](docs/warehouse-presentation.pdf)
@@ -109,6 +141,9 @@ python -m pytest test_warehouse.py -q
 
 발표·보고서는 초기 설계의 보상 조건과 학습 기록을 담았습니다. NumPy 실행 코드의 설정과 평가 조건은 위 표에 정리했습니다.
 
-## 환경 조건
 
-배치 판단에는 물품 종류·무게·수량·단가를 사용했습니다. 주문 날짜·출고 순서와 물품의 길이·폭·높이는 반영하지 않았습니다.
+---
+
+[웹 포트폴리오](https://seungyeol-rtl-portfolio.azuretide33.chatgpt.site) · [GitHub 프로필](https://github.com/lsy49055089)
+
+[논문](https://github.com/lsy49055089/Parallel-Decision-Tree-Hardware) · [RTL / FPGA Design](https://github.com/lsy49055089/RTL-Design-Projects) · [Design Verification](https://github.com/lsy49055089/RTL-Verification-Projects) · [Embedded Systems](https://github.com/lsy49055089/Embedded-Systems-Projects) · [AI / CV](https://github.com/lsy49055089/AI-Projects)

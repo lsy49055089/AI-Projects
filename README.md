@@ -1,26 +1,25 @@
-# AI / CV Projects
+# AI / CV
 
-강화학습 기반 창고 배치 시뮬레이션과 NVIDIA Jetson Orin Nano 기반 실시간 AI·Computer Vision 프로젝트를 정리한 포트폴리오 저장소입니다.
+Jetson의 영상 추론·다중 카메라 연동과 DQN 기반 창고 배치 시뮬레이션을 구현한 프로젝트입니다.
 
-[![Portfolio CI](https://github.com/lsy49055089/AI-Projects/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/lsy49055089/AI-Projects/actions/workflows/portfolio-ci.yml)
 
-> RTL 설계·검증 역량을 중심으로, 실제 시스템에 AI 추론을 연결한 확장 프로젝트를 담았습니다.
+<a id="ai--cv-projects"></a>
+<a id="projects"></a>
+<a id="portfolio-navigation"></a>
 
-## Projects
+## 프로젝트
 
-| Project | Description | Stack |
+| 프로젝트 | 담당 역할 | 주요 구현·결과 |
 |---|---|---|
-| [Jetson AI Rock–Paper–Scissors](./AI/jetson-rps-game) | 손을 실시간으로 분류해 1인전·2인전·하나 빼기·묵찌빠를 제공하는 4모드 웹 게임 | MobileNetV2, TensorRT, OpenCV, Flask |
-| [Multi-Camera Re-ID Tracking](./AI/multicam-cctv-reid) | 여러 카메라에서 동일 인물을 연결하고 이동 경로를 판단하는 팀 프로젝트 | YOLO, ByteTrack, OSNet, MQTT |
-| [DQN 기반 물류창고 배치 시뮬레이션](./AI/warehouse-dqn) | 물품 속성과 단계별 보상을 사용해 2층 창고의 빈 적재 슬롯을 선택하는 개인 프로젝트 | Python, NumPy, DQN, Matplotlib |
+| [Multi-Camera Re-ID Tracking](./AI/multicam-cctv-reid) | OSNet 추론 인터페이스·MQTT/Camera A·B 초기 구현·검증 스크립트 | 카메라 간 동일인 연결·경로 판단, Jetson 실행 환경과 이동 시간 조건 점검 |
+| [Jetson AI Rock–Paper–Scissors](./AI/jetson-rps-game) | TensorRT 손 영상 분류·4모드 웹 게임 연동 | 실시간 입력·승패·UI 연결, 소스·엔진·UI 자산 자동 검사 |
+| [DQN 기반 물류창고 배치 시뮬레이션](./AI/warehouse-dqn) | 개인 프로젝트 · 전처리·창고 환경·보상·DQN·시각화 | 동일 조건 정책 비교, 환경·학습·출력 생성 자동 시험 7개 PASS |
 
-- [Original CCTV Team Repository](https://github.com/realisshoon/jetson-multicam-re_id-tracking)
 
-각 프로젝트 폴더에는 구현 내용, 실행 환경, 핵심 기술과 원본 코드 범위를 정리했습니다.
-
+[CI 실행 기록](https://github.com/lsy49055089/AI-Projects/actions/workflows/portfolio-ci.yml)
 
 ---
 
-## Portfolio Navigation
+[웹 포트폴리오](https://seungyeol-rtl-portfolio.azuretide33.chatgpt.site) · [GitHub 프로필](https://github.com/lsy49055089)
 
-[Conference Paper](https://github.com/lsy49055089/Parallel-Decision-Tree-Hardware) · [RTL / FPGA Design](https://github.com/lsy49055089/RTL-Design-Projects) · [Design Verification](https://github.com/lsy49055089/RTL-Verification-Projects) · [Embedded Systems](https://github.com/lsy49055089/Embedded-Systems-Projects) · [AI / CV](https://github.com/lsy49055089/AI-Projects)
+[논문](https://github.com/lsy49055089/Parallel-Decision-Tree-Hardware) · [RTL / FPGA Design](https://github.com/lsy49055089/RTL-Design-Projects) · [Design Verification](https://github.com/lsy49055089/RTL-Verification-Projects) · [Embedded Systems](https://github.com/lsy49055089/Embedded-Systems-Projects) · [AI / CV](https://github.com/lsy49055089/AI-Projects)

@@ -1,11 +1,20 @@
-# AI Projects
+# AI / CV
 
-강화학습 시뮬레이션과 온디바이스 Computer Vision·실시간 AI 프로젝트입니다.
+영상 추론·카메라 연동과 강화학습 시뮬레이션 프로젝트입니다.
 
-| 프로젝트 | 핵심 내용 | 주요 기술 |
+
+<a id="ai-projects"></a>
+
+## 프로젝트
+
+| 프로젝트 | 담당 역할 | 주요 구현·결과 |
 |---|---|---|
-| [Jetson AI Rock–Paper–Scissors](./jetson-rps-game) | 손을 실시간으로 분류해 1인전·2인전·하나 빼기·묵찌빠를 제공하는 4모드 웹 게임 | Jetson Orin Nano, MobileNetV2, TensorRT, OpenCV, Flask |
-| [Multi-Camera Re-ID Tracking](./multicam-cctv-reid) | 여러 카메라 사이에서 동일 인물을 연결하고 경로 및 이동 상태를 판단하는 팀 프로젝트 | YOLO, ByteTrack, OSNet, MQTT, Jetson Orin Nano |
-| [DQN 기반 물류창고 배치 시뮬레이션](./warehouse-dqn) | 물품 속성별 보상과 DQN으로 2층 창고의 빈 슬롯을 선택하는 개인 프로젝트 | Python, NumPy, DQN, Matplotlib |
+| [Multi-Camera Re-ID Tracking](./multicam-cctv-reid) | OSNet 추론 인터페이스·MQTT/Camera A·B 초기 구현·검증 스크립트 | 카메라 간 동일인 연결·경로 판단, Jetson 실행 환경과 이동 시간 조건 점검 |
+| [Jetson AI Rock–Paper–Scissors](./jetson-rps-game) | TensorRT 손 영상 분류·4모드 웹 게임 연동 | 실시간 입력·승패·UI 연결, 소스·엔진·UI 자산 자동 검사 |
+| [DQN 기반 물류창고 배치 시뮬레이션](./warehouse-dqn) | 개인 프로젝트 · 전처리·창고 환경·보상·DQN·시각화 | 동일 조건 정책 비교, 환경·학습·출력 생성 자동 시험 7개 PASS |
 
-각 프로젝트 폴더에는 구현 내용, 실행 환경, 핵심 기술과 원본 코드를 정리했습니다.
+---
+
+[웹 포트폴리오](https://seungyeol-rtl-portfolio.azuretide33.chatgpt.site) · [GitHub 프로필](https://github.com/lsy49055089)
+
+[논문](https://github.com/lsy49055089/Parallel-Decision-Tree-Hardware) · [RTL / FPGA Design](https://github.com/lsy49055089/RTL-Design-Projects) · [Design Verification](https://github.com/lsy49055089/RTL-Verification-Projects) · [Embedded Systems](https://github.com/lsy49055089/Embedded-Systems-Projects) · [AI / CV](https://github.com/lsy49055089/AI-Projects)
